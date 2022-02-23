@@ -1,0 +1,734 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "hello-test",
+        "directory": "/mnt/git/samples-go/helloworld/java-client/hello",
+        "workspaceDir": "/mnt/git/samples-go/helloworld/java-client/hello",
+        "sources": [
+            "/mnt/git/samples-go/helloworld/java-client/hello/src/test/java"
+        ],
+        "dependencies": [
+            "hello"
+        ],
+        "classpath": [
+            "/mnt/git/samples-go/helloworld/java-client/hello/target/test-classes",
+            "/mnt/git/samples-go/helloworld/java-client/hello/target/classes",
+            "/mnt/arch/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar",
+            "/mnt/arch/.m2/repository/io/temporal/temporal-sdk/1.1.0/temporal-sdk-1.1.0.jar",
+            "/mnt/arch/.m2/repository/io/temporal/temporal-serviceclient/1.1.0/temporal-serviceclient-1.1.0.jar",
+            "/mnt/arch/.m2/repository/io/grpc/grpc-protobuf/1.39.0/grpc-protobuf-1.39.0.jar",
+            "/mnt/arch/.m2/repository/io/grpc/grpc-api/1.39.0/grpc-api-1.39.0.jar",
+            "/mnt/arch/.m2/repository/io/grpc/grpc-context/1.39.0/grpc-context-1.39.0.jar",
+            "/mnt/arch/.m2/repository/com/google/protobuf/protobuf-java/3.17.2/protobuf-java-3.17.2.jar",
+            "/mnt/arch/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar",
+            "/mnt/arch/.m2/repository/io/grpc/grpc-protobuf-lite/1.39.0/grpc-protobuf-lite-1.39.0.jar",
+            "/mnt/arch/.m2/repository/io/grpc/grpc-stub/1.39.0/grpc-stub-1.39.0.jar",
+            "/mnt/arch/.m2/repository/io/grpc/grpc-core/1.39.0/grpc-core-1.39.0.jar",
+            "/mnt/arch/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar",
+            "/mnt/arch/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar",
+            "/mnt/arch/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar",
+            "/mnt/arch/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/grpc-netty-shaded-1.39.0.jar",
+            "/mnt/arch/.m2/repository/io/grpc/grpc-services/1.39.0/grpc-services-1.39.0.jar",
+            "/mnt/arch/.m2/repository/com/google/protobuf/protobuf-java-util/3.17.3/protobuf-java-util-3.17.3.jar",
+            "/mnt/arch/.m2/repository/com/uber/m3/tally-core/0.6.1/tally-core-0.6.1.jar",
+            "/mnt/arch/.m2/repository/org/slf4j/slf4j-api/1.7.31/slf4j-api-1.7.31.jar",
+            "/mnt/arch/.m2/repository/com/google/code/gson/gson/2.8.7/gson-2.8.7.jar",
+            "/mnt/arch/.m2/repository/io/micrometer/micrometer-core/1.7.1/micrometer-core-1.7.1.jar",
+            "/mnt/arch/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar",
+            "/mnt/arch/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar",
+            "/mnt/arch/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar",
+            "/mnt/arch/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
+            "/mnt/arch/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+            "/mnt/arch/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+            "/mnt/arch/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar",
+            "/mnt/arch/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar",
+            "/mnt/arch/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar",
+            "/mnt/arch/.m2/repository/com/cronutils/cron-utils/9.1.5/cron-utils-9.1.5.jar",
+            "/mnt/arch/.m2/repository/org/glassfish/javax.el/3.0.0/javax.el-3.0.0.jar",
+            "/mnt/arch/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar",
+            "/mnt/arch/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar",
+            "/mnt/arch/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar",
+            "/mnt/arch/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.3/jackson-datatype-jsr310-2.12.3.jar"
+        ],
+        "out": "/mnt/git/samples-go/helloworld/java-client/hello/target",
+        "classesDir": "/mnt/git/samples-go/helloworld/java-client/hello/target/test-classes",
+        "resources": [
+            
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "0.0.0",
+            "options": [
+                
+            ],
+            "jars": [
+                
+            ],
+            "setup": {
+                "order": "java->scala",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                "-g",
+                "-target",
+                "14",
+                "-source",
+                "14",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/mnt/arch/.sdkman/candidates/java/14.0.2-open",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "io.grpc",
+                    "name": "grpc-services",
+                    "version": "1.39.0",
+                    "artifacts": [
+                        {
+                            "name": "grpc-services",
+                            "path": "/home/arch/.m2/repository/io/grpc/grpc-services/1.39.0/grpc-services-1.39.0.jar"
+                        },
+                        {
+                            "name": "grpc-services",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/io/grpc/grpc-services/1.39.0/grpc-services-1.39.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.micrometer",
+                    "name": "micrometer-core",
+                    "version": "1.7.1",
+                    "artifacts": [
+                        {
+                            "name": "micrometer-core",
+                            "path": "/home/arch/.m2/repository/io/micrometer/micrometer-core/1.7.1/micrometer-core-1.7.1.jar"
+                        },
+                        {
+                            "name": "micrometer-core",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/io/micrometer/micrometer-core/1.7.1/micrometer-core-1.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "failureaccess",
+                    "version": "1.0.1",
+                    "artifacts": [
+                        {
+                            "name": "failureaccess",
+                            "path": "/home/arch/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"
+                        },
+                        {
+                            "name": "failureaccess",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "listenablefuture",
+                    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+                    "artifacts": [
+                        {
+                            "name": "listenablefuture",
+                            "path": "/home/arch/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.12.3",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "/home/arch/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.protobuf",
+                    "name": "protobuf-java",
+                    "version": "3.17.2",
+                    "artifacts": [
+                        {
+                            "name": "protobuf-java",
+                            "path": "/home/arch/.m2/repository/com/google/protobuf/protobuf-java/3.17.2/protobuf-java-3.17.2.jar"
+                        },
+                        {
+                            "name": "protobuf-java",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/com/google/protobuf/protobuf-java/3.17.2/protobuf-java-3.17.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.grpc",
+                    "name": "grpc-context",
+                    "version": "1.39.0",
+                    "artifacts": [
+                        {
+                            "name": "grpc-context",
+                            "path": "/home/arch/.m2/repository/io/grpc/grpc-context/1.39.0/grpc-context-1.39.0.jar"
+                        },
+                        {
+                            "name": "grpc-context",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/io/grpc/grpc-context/1.39.0/grpc-context-1.39.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.android",
+                    "name": "annotations",
+                    "version": "4.1.1.4",
+                    "artifacts": [
+                        {
+                            "name": "annotations",
+                            "path": "/home/arch/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar"
+                        },
+                        {
+                            "name": "annotations",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.errorprone",
+                    "name": "error_prone_annotations",
+                    "version": "2.5.1",
+                    "artifacts": [
+                        {
+                            "name": "error_prone_annotations",
+                            "path": "/home/arch/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar"
+                        },
+                        {
+                            "name": "error_prone_annotations",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.grpc",
+                    "name": "grpc-protobuf-lite",
+                    "version": "1.39.0",
+                    "artifacts": [
+                        {
+                            "name": "grpc-protobuf-lite",
+                            "path": "/home/arch/.m2/repository/io/grpc/grpc-protobuf-lite/1.39.0/grpc-protobuf-lite-1.39.0.jar"
+                        },
+                        {
+                            "name": "grpc-protobuf-lite",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/io/grpc/grpc-protobuf-lite/1.39.0/grpc-protobuf-lite-1.39.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.12.3",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "/home/arch/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.datatype",
+                    "name": "jackson-datatype-jsr310",
+                    "version": "2.12.3",
+                    "artifacts": [
+                        {
+                            "name": "jackson-datatype-jsr310",
+                            "path": "/home/arch/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.3/jackson-datatype-jsr310-2.12.3.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jsr310",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.3/jackson-datatype-jsr310-2.12.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "junit",
+                    "name": "junit",
+                    "version": "3.8.1",
+                    "artifacts": [
+                        {
+                            "name": "junit",
+                            "path": "/home/arch/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar"
+                        },
+                        {
+                            "name": "junit",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/junit/junit/3.8.1/junit-3.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.grpc",
+                    "name": "grpc-netty-shaded",
+                    "version": "1.39.0",
+                    "artifacts": [
+                        {
+                            "name": "grpc-netty-shaded",
+                            "path": "/home/arch/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/grpc-netty-shaded-1.39.0.jar"
+                        },
+                        {
+                            "name": "grpc-netty-shaded",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/grpc-netty-shaded-1.39.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.api.grpc",
+                    "name": "proto-google-common-protos",
+                    "version": "2.0.1",
+                    "artifacts": [
+                        {
+                            "name": "proto-google-common-protos",
+                            "path": "/home/arch/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar"
+                        },
+                        {
+                            "name": "proto-google-common-protos",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.grpc",
+                    "name": "grpc-core",
+                    "version": "1.39.0",
+                    "artifacts": [
+                        {
+                            "name": "grpc-core",
+                            "path": "/home/arch/.m2/repository/io/grpc/grpc-core/1.39.0/grpc-core-1.39.0.jar"
+                        },
+                        {
+                            "name": "grpc-core",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/io/grpc/grpc-core/1.39.0/grpc-core-1.39.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.j2objc",
+                    "name": "j2objc-annotations",
+                    "version": "1.3",
+                    "artifacts": [
+                        {
+                            "name": "j2objc-annotations",
+                            "path": "/home/arch/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar"
+                        },
+                        {
+                            "name": "j2objc-annotations",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "guava",
+                    "version": "30.1.1-jre",
+                    "artifacts": [
+                        {
+                            "name": "guava",
+                            "path": "/home/arch/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish",
+                    "name": "javax.el",
+                    "version": "3.0.0",
+                    "artifacts": [
+                        {
+                            "name": "javax.el",
+                            "path": "/home/arch/.m2/repository/org/glassfish/javax.el/3.0.0/javax.el-3.0.0.jar"
+                        },
+                        {
+                            "name": "javax.el",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/org/glassfish/javax.el/3.0.0/javax.el-3.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.codehaus.mojo",
+                    "name": "animal-sniffer-annotations",
+                    "version": "1.19",
+                    "artifacts": [
+                        {
+                            "name": "animal-sniffer-annotations",
+                            "path": "/home/arch/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar"
+                        },
+                        {
+                            "name": "animal-sniffer-annotations",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.grpc",
+                    "name": "grpc-protobuf",
+                    "version": "1.39.0",
+                    "artifacts": [
+                        {
+                            "name": "grpc-protobuf",
+                            "path": "/home/arch/.m2/repository/io/grpc/grpc-protobuf/1.39.0/grpc-protobuf-1.39.0.jar"
+                        },
+                        {
+                            "name": "grpc-protobuf",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/io/grpc/grpc-protobuf/1.39.0/grpc-protobuf-1.39.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.temporal",
+                    "name": "temporal-serviceclient",
+                    "version": "1.1.0",
+                    "artifacts": [
+                        {
+                            "name": "temporal-serviceclient",
+                            "path": "/home/arch/.m2/repository/io/temporal/temporal-serviceclient/1.1.0/temporal-serviceclient-1.1.0.jar"
+                        },
+                        {
+                            "name": "temporal-serviceclient",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/io/temporal/temporal-serviceclient/1.1.0/temporal-serviceclient-1.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hdrhistogram",
+                    "name": "HdrHistogram",
+                    "version": "2.1.12",
+                    "artifacts": [
+                        {
+                            "name": "HdrHistogram",
+                            "path": "/home/arch/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar"
+                        },
+                        {
+                            "name": "HdrHistogram",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.12.3",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "/home/arch/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.temporal",
+                    "name": "temporal-sdk",
+                    "version": "1.1.0",
+                    "artifacts": [
+                        {
+                            "name": "temporal-sdk",
+                            "path": "/home/arch/.m2/repository/io/temporal/temporal-sdk/1.1.0/temporal-sdk-1.1.0.jar"
+                        },
+                        {
+                            "name": "temporal-sdk",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/io/temporal/temporal-sdk/1.1.0/temporal-sdk-1.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.31",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/home/arch/.m2/repository/org/slf4j/slf4j-api/1.7.31/slf4j-api-1.7.31.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/org/slf4j/slf4j-api/1.7.31/slf4j-api-1.7.31-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.findbugs",
+                    "name": "jsr305",
+                    "version": "3.0.2",
+                    "artifacts": [
+                        {
+                            "name": "jsr305",
+                            "path": "/home/arch/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+                        },
+                        {
+                            "name": "jsr305",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.grpc",
+                    "name": "grpc-api",
+                    "version": "1.39.0",
+                    "artifacts": [
+                        {
+                            "name": "grpc-api",
+                            "path": "/home/arch/.m2/repository/io/grpc/grpc-api/1.39.0/grpc-api-1.39.0.jar"
+                        },
+                        {
+                            "name": "grpc-api",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/io/grpc/grpc-api/1.39.0/grpc-api-1.39.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.protobuf",
+                    "name": "protobuf-java-util",
+                    "version": "3.17.3",
+                    "artifacts": [
+                        {
+                            "name": "protobuf-java-util",
+                            "path": "/home/arch/.m2/repository/com/google/protobuf/protobuf-java-util/3.17.3/protobuf-java-util-3.17.3.jar"
+                        },
+                        {
+                            "name": "protobuf-java-util",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/com/google/protobuf/protobuf-java-util/3.17.3/protobuf-java-util-3.17.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.uber.m3",
+                    "name": "tally-core",
+                    "version": "0.6.1",
+                    "artifacts": [
+                        {
+                            "name": "tally-core",
+                            "path": "/home/arch/.m2/repository/com/uber/m3/tally-core/0.6.1/tally-core-0.6.1.jar"
+                        },
+                        {
+                            "name": "tally-core",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/com/uber/m3/tally-core/0.6.1/tally-core-0.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.latencyutils",
+                    "name": "LatencyUtils",
+                    "version": "2.0.3",
+                    "artifacts": [
+                        {
+                            "name": "LatencyUtils",
+                            "path": "/home/arch/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar"
+                        },
+                        {
+                            "name": "LatencyUtils",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.perfmark",
+                    "name": "perfmark-api",
+                    "version": "0.23.0",
+                    "artifacts": [
+                        {
+                            "name": "perfmark-api",
+                            "path": "/home/arch/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar"
+                        },
+                        {
+                            "name": "perfmark-api",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.checkerframework",
+                    "name": "checker-qual",
+                    "version": "3.8.0",
+                    "artifacts": [
+                        {
+                            "name": "checker-qual",
+                            "path": "/home/arch/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar"
+                        },
+                        {
+                            "name": "checker-qual",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.gson",
+                    "name": "gson",
+                    "version": "2.8.7",
+                    "artifacts": [
+                        {
+                            "name": "gson",
+                            "path": "/home/arch/.m2/repository/com/google/code/gson/gson/2.8.7/gson-2.8.7.jar"
+                        },
+                        {
+                            "name": "gson",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/com/google/code/gson/gson/2.8.7/gson-2.8.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.grpc",
+                    "name": "grpc-stub",
+                    "version": "1.39.0",
+                    "artifacts": [
+                        {
+                            "name": "grpc-stub",
+                            "path": "/home/arch/.m2/repository/io/grpc/grpc-stub/1.39.0/grpc-stub-1.39.0.jar"
+                        },
+                        {
+                            "name": "grpc-stub",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/io/grpc/grpc-stub/1.39.0/grpc-stub-1.39.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.cronutils",
+                    "name": "cron-utils",
+                    "version": "9.1.5",
+                    "artifacts": [
+                        {
+                            "name": "cron-utils",
+                            "path": "/home/arch/.m2/repository/com/cronutils/cron-utils/9.1.5/cron-utils-9.1.5.jar"
+                        },
+                        {
+                            "name": "cron-utils",
+                            "classifier": "sources",
+                            "path": "/home/arch/.m2/repository/com/cronutils/cron-utils/9.1.5/cron-utils-9.1.5-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
