@@ -5,12 +5,11 @@ package com.demo;
  *
  */
 
+import com.demo.workflow.Workflow;
 import io.temporal.client.WorkflowClient;
 import io.temporal.serviceclient.WorkflowServiceStubs;
-import io.temporal.worker.Worker;
-import io.temporal.worker.WorkerFactory;
+import io.temporal.serviceclient.WorkflowServiceStubsOptions;
 import io.temporal.client.WorkflowOptions;
-import io.temporal.serviceclient.WorkflowServiceStubs;
 
 public class App 
 {
@@ -19,12 +18,24 @@ public class App
     public static final String WORKFLOW_ID = "hello_world_workflowID";
 
     public static void main(String[] args) {
+      WorkflowServiceStubs service =
+        WorkflowServiceStubs.newInstance(
+            WorkflowServiceStubsOptions.newBuilder()
+                .setTarget("fe.svc.bdf-cadence.us-east.bdf-cloud.iqvia.net:7233")
+                .build());
 
-      WorkflowServiceStubs service = WorkflowServiceStubs.newInstance();
       WorkflowClient client = WorkflowClient.newInstance(service);
       WorkflowOptions goWorkflowOptions =
                 WorkflowOptions.newBuilder().setTaskQueue(TASK_QUEUE).setWorkflowId(WORKFLOW_ID).build();
 
-      //SimpleWorkflow workflow = client.newWorkflowStub(SimpleWorkflow.class, goWorkflowOptions);
+      Workflow workflow = client.newWorkflowStub(Workflow.class, goWorkflowOptions);
+
+      System.out.println( workflow.exec("rawr") );
+      try {
+          Thread.sleep(10 * 1000);
+      } catch (Exception e) {
+          e.printStackTrace();
+      }
+      System.exit(0);
     }
 }
